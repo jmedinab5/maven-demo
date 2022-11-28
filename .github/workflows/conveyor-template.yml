@@ -1,0 +1,5 @@
+name: Implement Conveyor template
+# on: push
+jobs:
+  test-template:
+    uses: jmedinab5/conveyor-maven-template/.github/workflows/action.yml@main
